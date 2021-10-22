@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Bodoni 72";
+    src: local("Bodoni 72");
+}
+
+@font-face {
+    font-family: Avenir Next;
+    src: local(Avenir Next);
+}
+
+body{
+    margin: 30;
+}
+
+h1 {
+    font-family: Avenir Next;
+    font-weight: 450;
+    font-style: italic;
+    color: #1F667F;
+}
+
+h3 {
+    font-family: Avenir Next;
+    font-weight: 450;
+}
+
+h4 {
+    font-family: Avenir Next;
+    font-weight: 450;
+}
+
+
+.nom {
+    font-family: Bodoni-72;
+    font-size: 40px;
+    font-weight: 10;
+}
+
+.infos {
+    font-family: Avenir Next;
+    font-weight: 450;
+}
+
+.bloc-profil {
+    font-family: Avenir Next;
+}
+
+.bloc-competences {
+    font-family: Avenir Next;
+}
+
+.bloc-exp {
+    font-family: Avenir Next;
+}
+
+
+.iconeP{
+    width: 32px;
+    position: relative;
+}
+
+#iconePatte{
+    left: 20px;
+    
+}
+
+#iconePatte:hover{
+    width: 50px;
+
+}
+#iconeJeux{
+    left: 40px;
+}
+
+#iconeMakeup{
+    left: 60px;
+}
+
+#iconeArt{
+    left: 80px;
+}
